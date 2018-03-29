@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Visit Japan</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string-array name="DaerahFood">
+        <item>Tokyo</item>
+        <item>Hokkaido</item>
+        <item>Osaka</item>
+        <item>Mito</item>
+        <item>Kobe</item>
+        <item>Fukoka</item>
+        <item>Saitama</item>
+        <item>Shibuya</item>
+        <item>Hiroshima</item>
+        <item>Nagasaki</item>
+        <item>Kyoto</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

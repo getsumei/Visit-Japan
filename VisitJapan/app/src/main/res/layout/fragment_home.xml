@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.blogspot.xreator.visitjapan.HomeActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/dorayaki"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="155dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#c4fc706d"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Judul Content nya"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Rils nya"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/dorayaki"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="155dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#c4fc706d"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:text="Judul Content nya"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textSize="14dp"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Rils nya"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="Ntar ni isi nya artikel2 yg baru upp / yg paling populer gtu lah"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="pass di click ntar pndah actyvity isinya judul tanggal ama isi nya kasih gmbar jga"/>
+</LinearLayout>
